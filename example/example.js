@@ -15,5 +15,5 @@ imshow(applyHomography(
   baboonGrey,
   [1, 0, 0,
    0, 1, 0,
-   0, 0, 1]
+   1, 100, 1]
 ))
