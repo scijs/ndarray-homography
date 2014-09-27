@@ -1,11 +1,13 @@
 'use strict'
 
 var warp = require('ndarray-warp')
+var invert = require('gl-matrix-invert')
 
 module.exports = applyHomography
 
-function applyHomography(dest, src, X) {
+function applyHomography(dest, src, Xi) {
   var n = src.dimension
+  var X = invert([], Xi)
   warp(dest, src, function(out_c, inp_c) {
     for(var i=0; i<n; ++i) {
       out_c[i] = X[(n+1)*n + i]

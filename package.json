@@ -7,13 +7,14 @@
     "example": "example"
   },
   "dependencies": {
-    "ndarray-warp": "^1.0.0"
+    "ndarray-warp": "^1.0.0",
+    "gl-matrix-invert": "^1.0.0"
   },
   "devDependencies": {
-    "baboon-image": "~1.0.0",
-    "luminance": "~1.0.3",
-    "ndarray-imshow": "~1.0.0",
-    "ndarray-scratch": "~1.1.1",
+    "baboon-image": "^1.0.0",
+    "luminance": "^1.0.3",
+    "ndarray-imshow": "^1.0.0",
+    "ndarray-scratch": "^1.1.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
