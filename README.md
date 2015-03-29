@@ -33,7 +33,7 @@ npm install ndarray-homography
 # API
 
 ### `require('ndarray-homography')(dest, src, M)`
-Applies a [homography](http://en.wikipedia.org/Homography) to an ndarray.
+Applies a [homography](http://en.wikipedia.org/wiki/Homography) to an ndarray.
 
 * `dest` is a destination image, which has the same size as the input image
 * `src` is the input image
